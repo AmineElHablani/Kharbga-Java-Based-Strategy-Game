@@ -1,2 +1,6 @@
 # Kharbga-Java-Based-Strategy-Game
-Kharbga is a Java-based PvP game where two players each control three soldiers to align them in a row. Inspired by a traditional stone game, it offers a unique, competitive twist on Tic-Tac-Toe with immersive sound effects and music.
+
+
+### Overview
+
+Kharbga is a strategic player vs. player (PvP) game inspired by a traditional childhood game played with stones in my neighborhood. Designed for two players, each controls three soldiers with the goal of aligning them in a row. While Kharbga shares similarities with Tic-Tac-Toe, it offers a unique, more competitive, and intelligent twist. The game features sound effects and music to enhance the overall playing experience.

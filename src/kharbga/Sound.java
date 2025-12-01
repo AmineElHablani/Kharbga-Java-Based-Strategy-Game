@@ -10,6 +10,7 @@ public class Sound {
     URL soundURL[] = new URL[30];
     public  Sound(){
         soundURL[0] = getClass().getResource("./voice/chedleya.wav");
+
         soundURL[1] = getClass().getResource("./voice/suspense.wav");
 
     }

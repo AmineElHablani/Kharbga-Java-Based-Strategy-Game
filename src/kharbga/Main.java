@@ -19,6 +19,5 @@ public class Main {
         frame.add(new Screen());
         frame.setVisible(true);
 
-
     }
 }

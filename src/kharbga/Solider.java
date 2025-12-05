@@ -32,7 +32,7 @@ public class Solider extends JButton  implements ActionListener {
             setBackground(Color.blue);
         }
 
-        Image soliderImage = new ImageIcon(getClass().getResource("./images/"+name+".png")).getImage();
+        Image soliderImage = new ImageIcon(getClass().getResource("./Images/"+name+".png")).getImage();
         image = new ImageIcon(soliderImage.getScaledInstance(imageWidth,imageHeight, Image.SCALE_SMOOTH));
         //JButton token = new JButton(name);
         setBounds(this.positionWidth,this.positionHeight,imageWidth,imageHeight);
@@ -118,7 +118,7 @@ public class Solider extends JButton  implements ActionListener {
     }
     public void setImage(String name){
         setIcon(null);
-        Image soliderImage = new ImageIcon(getClass().getResource("./images/"+name+".png")).getImage();
+        Image soliderImage = new ImageIcon(getClass().getResource("./Images/"+name+".png")).getImage();
         this.image = new ImageIcon(soliderImage.getScaledInstance(40,60, Image.SCALE_SMOOTH));
         setBounds(this.positionWidth,this.positionHeight,40,60);
         setIcon(image);
